@@ -141,9 +141,9 @@ Remote Management
 To expose your application for remote management, you need to start it with the correct properties:
 
 	java \
-	-Dcom.sun.management.jmxremote.port = 9999 \
-	-Dcom.sun.management.jmxremote.authenticate = false \
-	-Dcom.sun.management.jmxremote.ssl = false \
+	-Dcom.sun.management.jmxremote.port=9999 \
+	-Dcom.sun.management.jmxremote.authenticate=false \
+	-Dcom.sun.management.jmxremote.ssl=false \
 	MAIN_CLASS
 
 ### Creating a Custom JMX Client ###
